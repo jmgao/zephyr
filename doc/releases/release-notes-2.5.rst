@@ -46,6 +46,9 @@ API Changes
   ``user_data`` as arguments instead of structure which contained list node,
   callback and user data.
 
+* The :c:func:`wait_for_usb_dfu` function now accepts a ``k_timeout_t`` argument instead of
+  using the ``CONFIG_USB_DFU_WAIT_DELAY_MS`` macro.
+
 Deprecated in this release
 ==========================
 
